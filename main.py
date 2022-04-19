@@ -34,3 +34,8 @@ while True:
 
         else:
             print("Rock Smashes Scissor You Lose !")        
+
+
+    play_again = input("Do You Want To Play Again ? (y/n):")
+    if play_again.lower() != "y":
+        break    
